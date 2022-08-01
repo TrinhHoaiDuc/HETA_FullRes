@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+.Header .Logo img{
+   width: 95px;
+}
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.Header .Navbar{
+    margin-top: 16px;
+}
+.Header .Navbar a{
+  text-decoration: none;
+  margin-left: 20px;
+}
+.Header .Navbar #Home{
+    color: orange;
+}
+.Header .Navbar button{
+    background-color: transparent;
+    color: #ff7a43;
+    border: 1px solid #ff7a43;
+    border-radius: 30px;
+    padding: 8px 25px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-left: 15px;
+    margin-top: -6px;
+}
+.Infor .Anh img{
+    width: 100%;
+}
+.Infor .Text {
+    margin-top: 95px;
+}
+.Infor .Text #Title{
+    color: orange;
+}
+.Infor .Text #Last_Title{
+    margin-top: 60px;
+    color: gray;
+}
+.Infor .borderBanner{
+    position: absolute;
+    top: 500px;
+    left: 129px;
+}
+.Infor .btn_Details button{
+    position: absolute;
+    right: 150px;
+    padding: 13px 35px;
+    background-image: linear-gradient(#f0a645, #eb813b);
+    letter-spacing: 4px;
+    border-radius:  20px;
+    transform: translateY(20px);
+    color: white;
+}  
+.Problem #Title{
+    padding-top: 100px;
+    text-align: center;
+    color: orange;
+    padding-bottom: 100px;
+}
+.Problem .card{
+    border: 0px;
+}
+.Problem .HinhAnh img{
+    width: 100%;
+}
+.Under_Problem{
+    margin-top: 100px;
+}
+.Under_Problem .Text{
+    margin-top: 95px;
+}
+.Under_Problem #Text1{
+    margin-top: 38px;
+}
+.Under_Problem #Text2{
+    margin-top: 44px;
+}
+.FEATURES{
+    background-color: #f8f9fb;
+    padding-top: 50px;
+}
+.FEATURES #Title{
+    color: orange;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.FEATURES .card{
+    border: 0px;
+}
+.Hetachain’s_Blog{
+    background-color: #f8f9fb;
+}
+.Hetachain’s_Blog a{
+    position: absolute;
+    right: 10px;
+    padding: 4px 21px;
+    font-size: 10px;
+    border-radius: 10%;
+    bottom: 10px;
+}
+
+/*--------------------------------*/
+@media (min-width: 576px) { 
+    .btn_Details{
+        transform: translateX(10px);
+        font-size: 10px;
+    }
+    .Infor .borderBanner{
+        position: absolute;
+        top: 900px;
+        left: 0;
+    }
+    .Problem .Card1 .card{
+        width: 32rem;
+    }
+    .FEATURES .Card1 .card{
+        width: 32rem;
+    }
+    .OURTEAM .card{
+        width: 32rem;
+    }
+    .Hetachain’s_Blog .card1{
+        position: relative;
+        left: -15px;
+        width: 34rem;
+    }
+ }
+@media (min-width: 768px) { 
+    .Infor .borderBanner{
+        position: absolute;
+        top: 1000px;
+        left: -10px;
+    }
+    .btn_Details{
+        transform: translateX(-70px);
+        font-size: 10px;
+    }
+    .Problem .Card1 .card{
+        width: 45rem;
+    }
+    .FEATURES .Card1 .card{
+        width: 45rem;
+    }
+    .Hetachain’s_Blog .card1{
+        position: relative;
+        left: -15px;
+        width: 45rem;
+    }
+  }
+@media (min-width: 992px) {
+    .Problem .Card1 .card{
+        width: 18rem;
+    }
+    .FEATURES .Card1 .card{
+        width: 15rem;
+    }
+    .Hetachain’s_Blog .card1{
+        position: relative;
+        top: -13px;
+        left: -43px;
+        width: 32rem;
+    }
+    .Infor .borderBanner{
+        position: absolute;
+        top: 450px;
+        left: 0;
+    }
+    .btn_Details{
+        transform: translateX(100px);
+        font-size: 10px;
+    }
+    .OURTEAM .card{
+        width: 18rem;
+    }
+}
+@media (min-width: 1200px){
+    .Hetachain’s_Blog .card1{
+        position: relative;
+        top: -13px;
+        left: -43px;
+        width: 39rem;
+    }
+    .Infor .borderBanner{
+        position: absolute;
+        top: 450px;
+        left: 137px;
+    }
+    .btn_Details{
+        transform: translateX(100px);
+        font-size: 10px;
+    }
+}
+@media (min-width: 1400px) {
+    .Infor .borderBanner{
+        position: absolute;
+        top: 500px;
+        left: 129px;
+    }
+    .Problem .Card1 .card{
+        width: 18rem;
+    }
+    .FEATURES .Card1 .card{
+        width: 18rem;
+    }
+    .btn_Details{
+        transform: translateX(100px);
+        font-size: 10px;
+    }
+    .Hetachain’s_Blog .card1{
+        position: relative;
+        left: -15px;
+        width: 45rem;
+    }
+  }
